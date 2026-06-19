@@ -1,0 +1,7 @@
+.vscode
+.DS_Store
+
+*.mp4
+*.mov
+*.webm
+*.m4v

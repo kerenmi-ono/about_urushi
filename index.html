@@ -1,11 +1,625 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>漆の國、浄法寺</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <div id="jf-scroller">
+      <div id="jf-spacer"></div>
+    </div>
+
+    <div id="jf-canvas">
+      <div
+        class="bg"
+        style="
+          left: 0;
+          top: 0;
+          width: 1600px;
+          height: 1024px;
+          background: #8b0033;
+        "
+      ></div>
+      <div
+        class="bg"
+        style="
+          left: 0;
+          top: 0;
+          width: 46px;
+          height: 1024px;
+          background: rgba(0, 0, 0, 0.23);
+        "
+      ></div>
+      <div
+        class="bg"
+        style="
+          left: 2974px;
+          top: 0;
+          width: 4200px;
+          height: 1024px;
+          background: #5e4f55;
+        "
+      ></div>
+      <div
+        class="bg"
+        style="
+          left: 7174px;
+          top: 0;
+          width: 9471px;
+          height: 1024px;
+          background: #8b0033;
+        "
+      ></div>
+      <div
+        class="bg"
+        style="
+          left: 18116px;
+          top: 0;
+          width: 4984px;
+          height: 1024px;
+          background: #5e4f55;
+        "
+      ></div>
+
+      <svg class="hero-line" viewBox="0 0 1 1024" preserveAspectRatio="none">
+        <line
+          x1="0.5"
+          y1="0"
+          x2="0.5"
+          y2="1024"
+          stroke="white"
+          stroke-width="0.5"
+        />
+      </svg>
+
+      <div
+        class="accent"
+        style="
+          left: 8189px;
+          top: 558px;
+          width: 436px;
+          height: 466px;
+          background: #d9d9d9;
+        "
+      ></div>
+      <div
+        class="accent"
+        style="
+          left: 10317px;
+          top: 160px;
+          width: 808px;
+          height: 864px;
+          background: #d9d9d9;
+        "
+      ></div>
+      <div
+        class="accent"
+        style="
+          left: 11646px;
+          top: 485px;
+          width: 436px;
+          height: 466px;
+          background: #000;
+          overflow: hidden;
+        "
+      ></div>
+      <div
+        class="accent"
+        style="
+          left: 12189px;
+          top: 121px;
+          width: 436px;
+          height: 466px;
+          background: #8b0033;
+        "
+      ></div>
+      <div
+        class="accent media-frame"
+        style="
+          left: 13177px;
+          top: 115px;
+          width: 1240px;
+          height: 836px;
+          background: #000;
+        "
+      >
+        <iframe
+          src="https://www.youtube.com/embed/Z2Fo-ucJrUc?autoplay=1&mute=1&loop=1&playlist=Z2Fo-ucJrUc&playsinline=1&rel=0"
+          title="YouTube video player"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div
+        class="accent"
+        style="
+          left: 19073px;
+          top: 730px;
+          width: 434px;
+          height: 238px;
+          background: #d9d9d9;
+        "
+      ></div>
+      <div
+        class="accent"
+        style="
+          left: 19590px;
+          top: 113px;
+          width: 327px;
+          height: 730px;
+          background: #d9d9d9;
+        "
+      ></div>
+      <div
+        class="accent"
+        style="
+          left: 22373px;
+          top: 27px;
+          width: 717px;
+          height: 1024px;
+          background: #d9d9d9;
+        "
+      ></div>
+
+      <img
+        src="assets/6714fc0d4b7fe2ec9958107090fe473c486cb991.png"
+        alt=""
+        class="img"
+        style="
+          left: 851px;
+          top: 698px;
+          width: 260px;
+          height: 186px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/252e02bc0967913b0c99508cbf6fec3e04e10e1d.png"
+        alt=""
+        class="img"
+        style="
+          left: 1181px;
+          top: 465px;
+          width: 259px;
+          height: 467px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/252e02bc0967913b0c99508cbf6fec3e04e10e1d.png"
+        alt=""
+        class="img"
+        style="
+          left: 1530px;
+          top: 0;
+          width: 1534px;
+          height: 1024px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/5bce2deba4ff2e35d19599f1289aac63708f8e6b.png"
+        alt=""
+        class="img"
+        style="
+          left: 2974px;
+          top: 389px;
+          width: 660px;
+          height: 660px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/db87fb483f0d9c3575bdc7e200bb4a47fe0c97a1.png"
+        alt=""
+        class="img"
+        style="
+          left: 3958px;
+          top: 714px;
+          width: 388px;
+          height: 284px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/38c3f67ff33b08e87a66b23380f3a16eb9ae58af.png"
+        alt=""
+        class="img"
+        style="
+          left: 5025px;
+          top: 127px;
+          width: 442px;
+          height: 324px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/480bdad110ac4917bee36f2367e2e321e58fc62c.png"
+        alt=""
+        class="img"
+        style="
+          left: 7195px;
+          top: 153px;
+          width: 576px;
+          height: 324px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/271e20d30ff9ca70d526730573b9d629e5449f35.png"
+        alt=""
+        class="img"
+        style="
+          left: 7195px;
+          top: 558px;
+          width: 124px;
+          height: 466px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/9eb4ffc04b3147680f655261c4b5a448bb7db63a.png"
+        alt=""
+        class="img"
+        style="
+          left: 8189px;
+          top: 558px;
+          width: 462px;
+          height: 466px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/395a3031b6d47a381b52adaeda35e14b92f22612.png"
+        alt=""
+        class="img"
+        style="
+          left: 9069px;
+          top: 440px;
+          width: 705px;
+          height: 584px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/b7a37ce91b8b6fff35bdbfa9bf205691951deb78.png"
+        alt=""
+        class="img"
+        style="
+          left: 10317px;
+          top: 150px;
+          width: 808px;
+          height: 874px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/60b9c97553824c581ef51c8f8a6a275c70bdeac1.png"
+        alt=""
+        class="img"
+        style="
+          left: 11639px;
+          top: 485px;
+          width: 443px;
+          height: 466px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/aa26b9e7cb6e72fe9aac5a1fa2c73eaacdfcf8b6.png"
+        alt=""
+        class="img"
+        style="
+          left: 12189px;
+          top: 121px;
+          width: 698px;
+          height: 465px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/6722dee0be48c2c4a040057ad6664140e3d291d0.png"
+        alt=""
+        class="img"
+        style="
+          left: 15799px;
+          top: 417px;
+          width: 750px;
+          height: 550px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/151fb467e924f391271a5c8922bb8e0199a36b27.png"
+        alt=""
+        class="img"
+        style="
+          left: 16645px;
+          top: -54px;
+          width: 1471px;
+          height: 1079px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/ea0cee680ddf6e3817fe32d6271c0a4180030a97.png"
+        alt=""
+        class="img"
+        style="
+          left: 19073px;
+          top: 689px;
+          width: 434px;
+          height: 278px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/53efaf7d600320c01143bd1f763e23ed5fc0d899.png"
+        alt=""
+        class="img"
+        style="
+          left: 19590px;
+          top: 113px;
+          width: 327px;
+          height: 730px;
+          object-fit: cover;
+        "
+      />
+      <img
+        src="assets/084ad91db6015cfc57004eb2046c25b4330b3b67.png"
+        alt=""
+        class="img"
+        style="
+          left: 22373px;
+          top: 0;
+          width: 717px;
+          height: 1024px;
+          object-fit: cover;
+        "
+      />
+
+      <svg class="pin" viewBox="0 0 88.7991 93.6943" fill="none">
+        <path
+          d="M34.4367 87.1475V92.672L31.1219 90.0939L26.7023 89.3573L24.1242 83.4644L21.9143 81.6229L20.8094 77.2033L15.6532 75.7301L11.6018 76.4667L1.28935 67.9957V63.576V62.4711L2.02595 61.3662L0.552739 58.0515L2.02595 55.1051L1.28935 54.0001V52.8952L0.552739 49.9488L4.60408 45.5292L8.65542 45.1609L12.3385 40.3729L18.9679 39.268L20.8094 36.6899L18.9679 30.797L26.7023 26.7457L28.1755 24.5359L35.9099 21.2211L42.171 22.326L47.3273 18.2747L48.0639 15.6966L49.9054 14.5917L53.9568 11.2769L57.2715 10.5403V7.9622L62.0594 9.43541L64.6376 7.59389L65.3742 3.54255L70.8987 0.596125L74.5818 3.54255V8.6988L78.6331 12.3818L80.1063 16.8015V23.4309H81.9478L85.6309 33.3751L88.209 43.6876L80.1063 47.0024L79.3697 45.1609H76.055L73.4768 42.2144L67.9523 41.1095L66.1108 38.5314L62.0594 41.1095L59.8496 39.268L58.0081 42.951L57.2715 48.4756L53.9568 49.5805L49.1688 55.1051L46.959 54.0001L44.0126 56.9466L41.0661 58.7881L41.4344 62.4711L39.9612 68.7323L41.4344 79.0448L39.9612 82.3595L34.4367 87.1475Z"
+          fill="#B50042"
+          stroke="white"
+        />
+      </svg>
+
+      <svg
+        class="wave"
+        viewBox="0 0 6603.14 625.565"
+        fill="none"
+        preserveAspectRatio="none"
+      >
+        <path
+          d="M255.89 150.132C130.057 274.132 -89.3096 535.732 39.8904 590.132C169.09 644.532 1538.39 623.465 2206.89 606.132C2506.39 595.299 3185.19 544.132 3504.39 426.132C3823.59 308.132 4386.06 451.632 4627.39 538.132C4740.22 512.465 5019.99 390.132 5236.39 106.132C5452.79 -177.868 6237.56 177.465 6602.89 390.632"
+          stroke="#EFEAE5"
+          stroke-width="1"
+        />
+      </svg>
+
+      <div id="jf-menu-icon" class="menu-icon">
+        <svg width="19" height="21" viewBox="0 0 19 21" fill="none">
+          <path d="M0.5 0V21" stroke="white" />
+          <path d="M9.5 0V21" stroke="white" />
+          <path d="M18.5 0V21" stroke="white" />
+        </svg>
+      </div>
+
+      <p class="section-title" style="left: 3096px; top: 17px">Joboji</p>
+      <p class="section-title" style="left: 7195px; top: 17px">Process</p>
+      <p class="section-title" style="left: 18135px; top: 17px">Living</p>
+      <p class="section-title" style="left: 21648px; top: 17px">Future</p>
+
+      <p class="subtitle" style="left: 3265px; top: 45px">浄法寺</p>
+      <p class="subtitle" style="left: 7399px; top: 45px">工程</p>
+      <p class="subtitle" style="left: 18314px; top: 45px">生活</p>
+      <p class="subtitle" style="left: 21837px; top: 45px">未来</p>
+
+      <p class="hero-text" style="left: 65px; top: 884px">漆の國、浄法寺</p>
+      <p class="hero-copy" style="left: 733px; top: 63px; width: 699px">
+        The allure of lacquerware lies not merely in its beauty.<br />It is a
+        quiet and enriching experience in itself, one that allows you to feel
+        the seasons, the passage of time, and the activities of people every
+        time you hold it in your hands. It deepens with use, growing alongside
+        your life. Lacquerware is a mirror reflecting time, a small work of art
+        that envelops our daily lives.
+      </p>
+      <div class="hero-paragraph" style="left: 484px; top: 264px; width: 627px">
+        <p>漆器の魅力とは、美しさだけではない。</p>
+        <p>
+          それは手に取るたびに季節を感じ、時間を感じ、人の営みを感じることのできる、静かで豊かな体験そのものなのである。使うほどに深まり、暮らしと共に育つ。漆器とは、時を映す鏡であり、日々を包む小さな芸術なのだ。
+        </p>
+      </div>
+      <p class="scroll-hint" style="left: 1330px; top: 960px">scroll ▶</p>
+
+      <div class="text-block" style="left: 4376px; top: 285px; width: 579px">
+        浄法寺塗の起源は、鎌倉時代に建立された寺院群の造営や修復に用いる漆の生産にあるとされる。浄法寺地域では古くから漆の木が育てられ、漆掻きの技術が発展した。その後、採取した漆を用いた漆器づくりが地域産業として根付き、日用品として親しまれるようになった。
+      </div>
+      <div class="text-block" style="left: 4376px; top: 414px; width: 372px">
+        北の山々に抱かれた浄法寺では、静かな森の中で漆の木が育つ。幾年もの時を重ねて採られた一滴の漆は、職人の手によって器となり、土地の風土とともに受け継がれていく。
+      </div>
+      <div class="feature-copy" style="left: 3542px; top: 609px; width: 305px">
+        <p>
+          The origins of Joboji lacquerware are said to lie in the production of
+          lacquer used in the construction and restoration of temples built
+          during the Kamakura period. In the Joboji region, lacquer trees have
+          been cultivated since ancient times, and lacquer tapping techniques
+          developed. Later, the production of lacquerware using the harvested
+          lacquer took root as a local industry, and it became a familiar
+          everyday item.
+        </p>
+        <p>
+          In Joboji, nestled in the northern mountains, lacquer trees grow in a
+          quiet forest. A single drop of lacquer, harvested over many years, is
+          transformed into vessels by the hands of artisans, and passed down
+          through generations along with the local culture and traditions.
+        </p>
+      </div>
+      <div class="feature-copy" style="left: 5658px; top: 356px; width: 446px">
+        <p class="feature-title">特徴</p>
+        <p>
+          浄法寺塗の特別さは、器を塗る技だけでなく、その漆を育み採る営みまでが同じ土地に息づいていることにある。岩手の森で採られた一滴の漆は、職人の手によって幾度も塗り重ねられ、静かな艶を宿す器へと姿を変える。漆を採る人と塗る人、その技が一つの地域で受け継がれてきた風景は全国でも稀であり、浄法寺塗は土地そのものの物語を映した漆器なのである。
+        </p>
+      </div>
+      <div class="feature-copy" style="left: 6504px; top: 289px; width: 535px">
+        <p class="feature-title">Features</p>
+        <p>
+          The uniqueness of Joboji lacquerware lies not only in the technique of
+          applying the lacquer to the vessels, but also in the fact that the
+          entire process of cultivating and harvesting the lacquer is rooted in
+          the same land. A single drop of lacquer harvested from the forests of
+          Iwate is repeatedly applied by the hands of craftsmen, transforming it
+          into a vessel imbued with a quiet luster. The sight of the lacquer
+          harvesters and the lacquerers, and the techniques passed down within
+          the same region, is rare throughout Japan, and Joboji lacquerware
+          reflects the story of the land itself.
+        </p>
+      </div>
+      <div class="feature-copy" style="left: 5025px; top: 477px; width: 297px">
+        <p>御山御器</p>
+        <p>浄法寺塗に古くから伝わる三つ椀。</p>
+        <p>
+          大・中・小の椀を重ねて収納できる実用的な器であり、日々の食卓とともに受け継がれてきた。簡素な造形の中に、国産漆の深い艶と確かな手仕事が息づいている。
+        </p>
+      </div>
+
+      <div class="process-copy" style="left: 7783px; top: 164px; width: 275px">
+        The lacquer forests generously dedicate countless years to produce a
+        single drop of blessing.
+      </div>
+      <div class="process-copy" style="left: 7326px; top: 959px; width: 275px">
+        Only about 200g of lacquer can be harvested from a single lacquer tree.
+      </div>
+      <div class="process-copy" style="left: 8660px; top: 933px; width: 275px">
+        As the craftsman's hands trace the trunk, a drop of water, accumulated
+        over many years, seeps out like the blood of the forest.
+      </div>
+      <div class="process-copy" style="left: 9782px; top: 932px; width: 275px">
+        The lacquer, collected drop by drop, breathes quietly in the barrel,
+        holding the memories of the trees in its luster.
+      </div>
+
+      <div class="process-copy" style="left: 7338px; top: 576px; width: 234px">
+        <p>一本の漆の木から</p>
+        <p>採れる漆はわずか200gほど</p>
+      </div>
+      <div class="process-copy" style="left: 7784px; top: 329px; width: 109px">
+        漆の森は、一滴の恵みを生むために、長い歳月を惜しみなく差し出している。
+      </div>
+      <div class="process-copy" style="left: 8195px; top: 508px; width: 450px">
+        職人の手が幹をなぞると、長い歳月を蓄えた一滴が、まるで森の血潮のように滲み出る。
+      </div>
+      <div class="process-copy" style="left: 9786px; top: 451px; width: 105px">
+        一滴ずつ集められた漆は桶の中で静かに息づき、木々の記憶を艶として湛えている。
+      </div>
+      <div class="process-copy" style="left: 11646px; top: 406px; width: 436px">
+        木地は、漆器の骨格であり、その器のはじまりである。一つの木から削り出された形には、木が育った歳月と職人の手の跡が刻まれている。
+      </div>
+      <div class="process-copy" style="left: 12189px; top: 605px; width: 436px">
+        下地塗りは、漆器の美しさを支える見えない仕事である。表面には現れない幾重もの塗りと研ぎが、器に強さと滑らかさを与える。
+      </div>
+      <div class="process-copy" style="left: 14477px; top: 439px; width: 179px">
+        塗りは、漆器の美しさと耐久性を生み出す重要な工程である。下地を整えた木地に漆を薄く塗り重ね、乾燥と研磨を繰り返しながら仕上げていく。一度に厚く塗るのではなく、何層にも重ねることで、漆特有の深い艶と透明感が生まれる。浄法寺塗では、国産漆の豊かな表情を生かしながら、使うほどに味わいを増す器へと仕上げていく。その静かな輝きには、職人が積み重ねた時間と技術が映し出されている。
+      </div>
+      <div class="process-copy" style="left: 15240px; top: 716px; width: 347px">
+        The lacquering process is a crucial step in creating the beauty and
+        durability of lacquerware. Thin layers of lacquer are applied to the
+        prepared wooden base, and the piece is finished through repeated drying
+        and polishing. Rather than applying a thick coat all at once, multiple
+        layers are applied to create the deep luster and transparency unique to
+        lacquer. In Joboji lacquerware, the rich texture of domestically
+        produced lacquer is utilized to create pieces that gain character with
+        use. Their quiet brilliance reflects the time and skill accumulated by
+        the craftsmen.
+      </div>
+
+      <div class="living-copy" style="left: 16762px; top: 561px; width: 566px">
+        <p>Beauty is in utility</p>
+        <p>美は用の中にある</p>
+      </div>
+      <div class="living-copy" style="left: 17992px; top: 967px; width: 106px">
+        Souetsu Yanagi<br />柳宗悦
+      </div>
+      <div
+        class="living-copy"
+        style="left: 18736px; top: 905px; width: 276px; text-align: right"
+      >
+        暮らしに寄り添う<br />漆器
+      </div>
+      <div class="living-copy" style="left: 19959px; top: 245px; width: 777px">
+        暮らしに寄り添う漆器は、毎日の食卓に静かに佇む。朝の一杯の味噌汁、家族との夕食、何気ない日常の積み重ねを受け止めながら、少しずつ艶を深めていく。使う人の手に馴染み、時を重ねるごとに表情を変えるその姿は、道具でありながら暮らしの記憶を宿す存在となる。
+      </div>
+      <div class="living-copy" style="left: 20583px; top: 733px; width: 347px">
+        Lacquerware that accompanies everyday life quietly stands on the dining
+        table every day. A bowl of miso soup in the morning, dinner with family,
+        it absorbs the accumulation of ordinary daily moments, gradually
+        deepening its luster. It becomes familiar to the hand of the user, and
+        as time passes, its appearance changes, becoming not just a tool, but an
+        object that holds the memories of life.
+      </div>
+
+      <div class="future-copy" style="left: 21667px; top: 513px; width: 206px">
+        未来の継承<br /><span
+          >漆塗りは、長い年月をかけて受け継がれてきた日本の文化である。その価値を未来へつなぐためには、技術だけでなく、漆を使う暮らしや文化そのものを次世代へ伝えていくことが重要である。</span
+        >
+      </div>
+    </div>
+
+    <div id="index-container" class="hidden">
+      <div id="index-content">
+        <button id="index-close" class="index-close" aria-label="Close">
+          ×
+        </button>
+        <div class="index-title">
+          <div class="index-symbol">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="index-labels">
+            <p>Index</p>
+            <p>目次</p>
+          </div>
+        </div>
+
+        <div class="index-images">
+          <div class="index-image-large">
+            <img
+              src="assets/6714fc0d4b7fe2ec9958107090fe473c486cb991.png"
+              alt="漆器"
+            />
+          </div>
+          <div class="index-image-small">
+            <img
+              src="assets/151fb467e924f391271a5c8922bb8e0199a36b27.png"
+              alt="漆器"
+            />
+          </div>
+        </div>
+
+        <div class="index-links">
+          <button data-target="Joboji">Joboji</button>
+          <button data-target="Process">Process</button>
+          <button data-target="Living">Living</button>
+          <button data-target="Future">Future</button>
+        </div>
+
+        <div class="index-japanese">
+          <button data-target="Joboji">浄法寺とは</button>
+          <button data-target="Process">漆塗りについて</button>
+          <button data-target="Living">暮らしに寄り添う漆器</button>
+          <button data-target="Future">未来の継承</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="fade-overlay"></div>
+
+    <script src="main.js"></script>
   </body>
 </html>
