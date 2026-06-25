@@ -10,8 +10,8 @@ const navButtons = Array.from(document.querySelectorAll("[data-target]"));
 const video = document.getElementById("main-video");
 const videoError = document.getElementById("video-error");
 const images = Array.from(canvas?.querySelectorAll("img") || []);
-const dropSoundImage = "assets/9eb4ffc04b3147680f655261c4b5a448bb7db63a.png";
-const woodSoundImage = "assets/60b9c97553824c581ef51c8f8a6a275c70bdeac1.png";
+const dropSoundImage = "assets/urushi_kaki.png";
+const woodSoundImage = "assets/kiji.png";
 const soundProfiles = {
   [dropSoundImage]: {
     src: "assets/drop.mp3",
